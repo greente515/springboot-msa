@@ -1,0 +1,14 @@
+message:
+  owner: config-service's native folder
+  content: :) 안녕하세요 각각의 마이크로서비스에서 사용될 데이터 입니다. :)
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/test1?autoReconnect=true&useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Seoul
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: qwer1234
+
+jwt:
+  token:
+    key: my_secret_key
